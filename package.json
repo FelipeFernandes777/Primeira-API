@@ -1,0 +1,20 @@
+{
+  "name": "first_api",
+  "version": "1.0.0",
+  "description": "My first API in NodeJS",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "author": "L1ppins",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "2.0.15"
+  },
+  "dependencies": {
+    "express": "^4.17.3",
+    "mongoose": "^6.2.6"
+  }
+}
